@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #1B2021;
+}
+
+.titleClass {
+    position: absolute;
+    font-size: 10vmin;
+    width: 96%;
+    height: 15vmin;
+    line-height: 150%;
+    font-family: 'Bungee', sans-serif;
+    text-align: center;
+    background: #30343F;
+    color: #FFD9DA;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.button {
+    height: 5vmin;
+    width: 42.5vmin;
+    font-size: 3.5vmin;
+    line-height: 100%;
+    white-space: nowrap;
+    font-family: 'Bungee', sans-serif;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    cursor: pointer;
+    background: #30343F;
+    color: #FFD9DA;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 0 9px #666;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.statList {
+    position: absolute;
+    top: 40%;
+    background-color: #20232a;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+    border-radius: 20px;
+    width: 80vmin;
+}
+
+.buttons {
+    position: absolute;
+    left: 8%;
+    margin: auto;
+    top: 26%;
+    background-color: #20232a;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.experienceBar{
+    height: 5vmin;
+    width: 100%;
+}
+
+.stat {
+    height: 5vmin;
+    width: 94%;
+    top: 100vmin;
+    font-size: 4vmin;
+    white-space: nowrap;
+    font-family: 'Bungee', sans-serif;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    line-height: 125%;
+    background: #30343F;
+    color: #FFD9DA;
+    border-style: none;
+    border-radius: 20px;
+  }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Level Up Irl</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet href="index.css" type="text/css"></link>
+</head>
+<h1 class="titleClass" id ="title">LEVEL UP IRL</h1>
+<body onload="update()">
+<div class="statList" id="statListid">
+    <script src="index.js"></script>
+    <h2 class="stat" id="strength">STRENGTH: </h2>
+    <progress id="strengthBar" class="experienceBar" value="0" max="100"></progress>
+    <h2 class="stat" id="dex">DEX: </h2>
+    <progress id="dexBar" class="experienceBar" value="0" max="100"></progress>
+    <h2 class="stat" id="int">INT: </h2>
+    <progress id="intBar" class="experienceBar" value="0" max="100"></progress>
+    <h2 class="stat" id="ego">EGO: </h2>
+    <progress id="egoBar" class="experienceBar" value="0" max="100"></progress>
+    <h2 class="stat" id="guts">GUTS: </h2>
+    <progress id="gutsBar" class="experienceBar" value="0" max="100"></progress>
+</div>
+<div class="buttons" id="buttonid">
+    <button class="button" onclick="addStrengthExp()">Worked out today</button>
+    <button class="button" onclick="addDexExp()">Played guitar</button>
+    <button class="button" onclick="addIntExp()">Finished a book</button>
+    <button class="button" onclick="addEgoExp()">Used self control</button>
+    <button class="button" onclick="addGutsExp()">Faced fears</button>
+</div>
+</body>
+</html>
